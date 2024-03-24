@@ -1,0 +1,136 @@
+const signUpData = {
+  user: {
+    id: "992eb9ab-9934-49f6-99d3-c33d05df7eac",
+    aud: "authenticated",
+    role: "authenticated",
+    email: "afzalhusen3@gmail.com",
+    phone: "",
+    confirmation_sent_at: "2024-03-24T04:42:39.614722945Z",
+    app_metadata: { provider: "email", providers: ["email"] },
+    user_metadata: {
+      email: "afzalhusen3@gmail.com",
+      email_verified: false,
+      phone_verified: false,
+      sub: "992eb9ab-9934-49f6-99d3-c33d05df7eac",
+    },
+    identities: [
+      {
+        identity_id: "a75e3803-bf06-4566-b4e9-8e54002e3fe3",
+        id: "992eb9ab-9934-49f6-99d3-c33d05df7eac",
+        user_id: "992eb9ab-9934-49f6-99d3-c33d05df7eac",
+        identity_data: {
+          email: "afzalhusen3@gmail.com",
+          email_verified: false,
+          phone_verified: false,
+          sub: "992eb9ab-9934-49f6-99d3-c33d05df7eac",
+        },
+
+        provider: "email",
+        last_sign_in_at: "2024-03-24T04:42:39.603405493Z",
+        created_at: "2024-03-24T04:42:39.603465Z",
+        updated_at: "2024-03-24T04:42:39.603465Z",
+        email: "afzalhusen3@gmail.com",
+      },
+    ],
+
+    created_at: "2024-03-24T04:42:39.594532Z",
+    updated_at: "2024-03-24T04:42:43.029483Z",
+    is_anonymous: false,
+  },
+  session: null,
+};
+
+const loginData = {
+  user: {
+    id: "992eb9ab-9934-49f6-99d3-c33d05df7eac",
+    aud: "authenticated",
+    role: "authenticated",
+    email: "afzalhusen3@gmail.com",
+    email_confirmed_at: "2024-03-24T04:51:37.058046Z",
+    phone: "",
+    confirmation_sent_at: "2024-03-24T04:42:39.614722Z",
+    confirmed_at: "2024-03-24T04:51:37.058046Z",
+    last_sign_in_at: "2024-03-24T05:01:23.093017902Z",
+    app_metadata: {
+      provider: "email",
+      providers: ["email"],
+    },
+    user_metadata: {
+      email: "afzalhusen3@gmail.com",
+      email_verified: false,
+      phone_verified: false,
+      sub: "992eb9ab-9934-49f6-99d3-c33d05df7eac",
+    },
+    identities: [
+      {
+        identity_id: "a75e3803-bf06-4566-b4e9-8e54002e3fe3",
+        id: "992eb9ab-9934-49f6-99d3-c33d05df7eac",
+        user_id: "992eb9ab-9934-49f6-99d3-c33d05df7eac",
+        identity_data: {
+          email: "afzalhusen3@gmail.com",
+          email_verified: false,
+          phone_verified: false,
+          sub: "992eb9ab-9934-49f6-99d3-c33d05df7eac",
+        },
+        provider: "email",
+        last_sign_in_at: "2024-03-24T04:42:39.603405Z",
+        created_at: "2024-03-24T04:42:39.603465Z",
+        updated_at: "2024-03-24T04:42:39.603465Z",
+        email: "afzalhusen3@gmail.com",
+      },
+    ],
+    created_at: "2024-03-24T04:42:39.594532Z",
+    updated_at: "2024-03-24T05:01:23.099407Z",
+    is_anonymous: false,
+  },
+  session: {
+    access_token:
+      "eyJhbGciOiJIUzI1NiIsImtpZCI6IjRzTmc3N1hIbWhkd0pMZFgiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzExMjYwMDgzLCJpYXQiOjE3MTEyNTY0ODMsImlzcyI6Imh0dHBzOi8vYmtqdGNqcXpncmd3bWFqYXBydGUuc3VwYWJhc2UuY28vYXV0aC92MSIsInN1YiI6Ijk5MmViOWFiLTk5MzQtNDlmNi05OWQzLWMzM2QwNWRmN2VhYyIsImVtYWlsIjoiYWZ6YWxodXNlbjNAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFmemFsaHVzZW4zQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjpmYWxzZSwicGhvbmVfdmVyaWZpZWQiOmZhbHNlLCJzdWIiOiI5OTJlYjlhYi05OTM0LTQ5ZjYtOTlkMy1jMzNkMDVkZjdlYWMifSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTcxMTI1NjQ4M31dLCJzZXNzaW9uX2lkIjoiNTI5Mzc1NmMtNTE1ZC00NzAyLTgzMmYtYjBlZTc1OTIyNzM5IiwiaXNfYW5vbnltb3VzIjpmYWxzZX0.ogM-2Q_o3K4v2us1GjH94CnQKwA07W6TNXQyNrjGKTk",
+    token_type: "bearer",
+    expires_in: 3600,
+    expires_at: 1711260083,
+    refresh_token: "W_bfbU4MLM4sy-J2QATrUA",
+    user: {
+      id: "992eb9ab-9934-49f6-99d3-c33d05df7eac",
+      aud: "authenticated",
+      role: "authenticated",
+      email: "afzalhusen3@gmail.com",
+      email_confirmed_at: "2024-03-24T04:51:37.058046Z",
+      phone: "",
+      confirmation_sent_at: "2024-03-24T04:42:39.614722Z",
+      confirmed_at: "2024-03-24T04:51:37.058046Z",
+      last_sign_in_at: "2024-03-24T05:01:23.093017902Z",
+      app_metadata: {
+        provider: "email",
+        providers: ["email"],
+      },
+      user_metadata: {
+        email: "afzalhusen3@gmail.com",
+        email_verified: false,
+        phone_verified: false,
+        sub: "992eb9ab-9934-49f6-99d3-c33d05df7eac",
+      },
+      identities: [
+        {
+          identity_id: "a75e3803-bf06-4566-b4e9-8e54002e3fe3",
+          id: "992eb9ab-9934-49f6-99d3-c33d05df7eac",
+          user_id: "992eb9ab-9934-49f6-99d3-c33d05df7eac",
+          identity_data: {
+            email: "afzalhusen3@gmail.com",
+            email_verified: false,
+            phone_verified: false,
+            sub: "992eb9ab-9934-49f6-99d3-c33d05df7eac",
+          },
+          provider: "email",
+          last_sign_in_at: "2024-03-24T04:42:39.603405Z",
+          created_at: "2024-03-24T04:42:39.603465Z",
+          updated_at: "2024-03-24T04:42:39.603465Z",
+          email: "afzalhusen3@gmail.com",
+        },
+      ],
+      created_at: "2024-03-24T04:42:39.594532Z",
+      updated_at: "2024-03-24T05:01:23.099407Z",
+      is_anonymous: false,
+    },
+  },
+};
